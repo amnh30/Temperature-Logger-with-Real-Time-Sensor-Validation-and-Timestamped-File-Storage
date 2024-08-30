@@ -12,7 +12,7 @@ SCK --> 5;
 #define SO   7   // Set So in  pin 7
 #define CS   6   // Set CS in  pin 6
 #define SCK  5   // Set SCk in pin 5
-#define K   -4.5 // calibration Const
+#define K   -4.5 // calibration Const. Calibrated Value is -4.5 
 
 MAX6675 thermoCouple(CS, SO, SCK);
 
